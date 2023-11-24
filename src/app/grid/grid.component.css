@@ -1,0 +1,46 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  width: fit-content;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 5px;
+  height: 5px;
+}
+
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+form {
+  text-align: center;
+  width: 500px;
+  justify-content: space-between;
+  display: flex;
+}
+
+input[type=number] {
+  display: flex;
+  max-width: 50px;
+  text-align: center;
+}
+
+button {
+  font-size: 30px;
+  width: 420px;
+}
+.size-options label{
+  font-size: 30px;
+}
